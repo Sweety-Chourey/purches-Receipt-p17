@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 85%;
+    width: 65%;
+    background-color: rgb(70, 65, 65);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.a{
+    height: 100%;
+    width: 45%;
+    
+}
+
+.b{
+    height: 100%;
+    width: 55%;
+
+
+}
+.text{
+    padding: 15px;
+}
+.a>img{
+    margin-top: 40%;
+    margin-left: 23%;
+}
+.box1{
+    height: 90%;
+    width: 75%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 4px solid rgb(177, 85, 85);
+    position: relative;
+    
+}
+.text1{
+    margin-right: 10px;
+    height: 40%;
+    width: 95%;
+ 
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
+}
+p{
+    color: gray;
+}
+.textbox1{
+    height: 100%;
+    width: 65%;
+  
+}
+.red{
+    color: red;
+}
+.textbox2{
+    height: 100%;
+    width: 25%;
+
+
+}
+.hr{
+    margin-top: 35%;
+}
+
+button{
+    margin-top: 15%;
+    margin-left: 65px;
+    padding: 15px 60px;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    border: 4px solid red;
+}
+
+
